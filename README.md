@@ -5,7 +5,7 @@
 
 1. **cd into the folder**
 ```
-$ cd django_voting_app_simple
+$ cd url_shortner_django
 ```
 2. **install pipenv (virtual env) and activate it**
 ```
