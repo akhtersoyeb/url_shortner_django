@@ -1,0 +1,10 @@
+<form action="{% url 'urlshortner:add' %}" method="post">
+    {% csrf_token %}
+    <label for="main_url">Enter</label>
+    <input type="text" id="main_url" name="main_url">
+    <button type="submit" name="button">Generate Short Url</button>
+</form>
+
+{% if message %}
+    <h5>{{ message }}</h5>
+{% endif %}
